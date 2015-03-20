@@ -1,0 +1,87 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="GuiaCiudad.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm ="clr-namespace:GuiaCiudad.viewModels"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <vm:GuiaViewModel x:Key="ViewModel"/>
+    </phone:PhoneApplicationPage.Resources>
+    
+    <phone:Panorama Title="Guía de Ciudad" DataContext="{Binding Source={StaticResource ViewModel}}">
+            <phone:PanoramaItem Header="Fotos">
+                    <ListBox ItemsSource="{Binding FotoList}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Margin="0,0,30,17">
+                                    <Image Source="{Binding imagen_url}" Stretch="Fill"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Noticias">
+                <phone:LongListSelector Margin="0,-38,0,2" ItemsSource="{Binding NoticiaList}" BorderThickness="1">
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Width="420">
+                                    <Viewbox>
+                                        <TextBlock Text="{Binding titulo}"  TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="20" FontWeight="Bold" Width="420"/>
+                                    </Viewbox>
+                                    <Viewbox>
+                                        <TextBlock Text="{Binding cuerpo}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" FontSize="16" Width="420" Margin="20,0,0,20"/>
+                                    </Viewbox>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Clima">
+                <Grid DataContext="{Binding Clima}">
+                    <Image Margin="10,10,210,258" Stretch="UniformToFill" Source="{Binding icon_url}"/>
+                    <TextBlock Text="Cº" TextWrapping="Wrap" Margin="215,67,171,258" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"/>
+                    <TextBlock Text="{Binding temperatura}" TextWrapping="Wrap" Margin="254,67,10,258" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="96" TextAlignment="Center"/>
+                    <TextBlock Text="{Binding clima}" TextWrapping="Wrap" Margin="235,176,24,272" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                    <TextBlock Text="Viento:" TextWrapping="Wrap" Margin="10,254,299,156" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"/>
+                    <TextBlock Text="Humedad:" TextWrapping="Wrap" Margin="10,198,244,201" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"/>
+                    <TextBlock Text="Precipitaciones:" TextWrapping="Wrap" Margin="10,311,190,85" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"/>
+                    <TextBlock Text="{Binding humedad}" TextWrapping="Wrap" Margin="176,198,10,201" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                    <TextBlock Text="{Binding viento}" TextWrapping="Wrap" Margin="126,254,10,156" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                    <TextBlock Text="{Binding precipitaciones}" TextWrapping="Wrap" Margin="235,311,10,85" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                    <TextBlock Text="Ultima Observacion:" TextWrapping="Wrap" Margin="10,371,225,49" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                    <TextBlock Text="{Binding fechaobservacion}" TextWrapping="Wrap" Margin="10,407,10,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Configuracion">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Ciudad" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                        <TextBox x:Name="CiudadElegida"/>
+                        <Button Content="Elegir" Command="{Binding GetGuiaCommand}" CommandParameter="{Binding Text, ElementName='CiudadElegida'}" Background="#FF387FD4"/>
+                        <TextBlock Text="Nota:" Style="{StaticResource PhoneTextExtraLargeStyle}" FontWeight="Bold" FontSize="24" Padding="0,160,0,0"/>
+                        <Viewbox>
+                            <TextBlock Style="{StaticResource PhoneTextSubtleStyle}" TextWrapping="Wrap" Height="72" Width="434">
+							    Para ser mas especificos separe la ciudad del país por una coma. Ej: Lima, Perú
+                            </TextBlock>
+                        </Viewbox>
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+    </phone:Panorama>
+    
+</phone:PhoneApplicationPage>

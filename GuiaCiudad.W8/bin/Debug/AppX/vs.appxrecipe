@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODBM4QRKQFQ</Machine>
+    <WindowsUser>JSB</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>74C308453DC3872DD9ECF9A3FAD4AFD0EA68A8A4B4A5025CEC8DF68F26AF1E07</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2a97913a-dd2e-43c3-ba07-48d8f2560bb3_1.0.0.0_neutral__h39e5eqfdta5e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2a97913a-dd2e-43c3-ba07-48d8f2560bb3_h39e5eqfdta5e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2a97913a-dd2e-43c3-ba07-48d8f2560bb3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=JSB</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T01:49:36.907</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\GuiaCiudad.W8.exe">
+      <PackagePath>GuiaCiudad.W8.exe</PackagePath>
+      <Modified>2013-07-22T01:49:35.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\GuiaCiudad.W8.pdb">
+      <PackagePath>GuiaCiudad.W8.pdb</PackagePath>
+      <Modified>2013-07-22T01:49:35.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.dll">
+      <PackagePath>GuiaCiudad.Common.dll</PackagePath>
+      <Modified>2013-07-21T07:02:57.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.pdb">
+      <PackagePath>GuiaCiudad.Common.pdb</PackagePath>
+      <Modified>2013-07-21T07:02:57.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-18T21:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-18T21:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-18T21:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-18T21:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-07-21T02:31:12.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-27T00:24:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-07-21T06:06:30.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-07-21T07:02:59.306</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

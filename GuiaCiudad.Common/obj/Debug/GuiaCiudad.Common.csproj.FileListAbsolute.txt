@@ -1,0 +1,13 @@
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.dll.config
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.dll
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.pdb
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.dll
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.xml
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\obj\Debug\GuiaCiudad.Common.csproj.App.config
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\obj\Debug\GuiaCiudad.Common.dll
+c:\users\jsb\documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\obj\Debug\GuiaCiudad.Common.pdb
+C:\Users\JSB\Documents\visual studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\obj\Debug\GuiaCiudad.Common.csprojResolveAssemblyReference.cache

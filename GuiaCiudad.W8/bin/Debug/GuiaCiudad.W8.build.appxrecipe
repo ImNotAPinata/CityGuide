@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODBM4QRKQFQ</Machine>
+    <WindowsUser>JSB</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\GuiaCiudad.W8.exe">
+      <PackagePath>GuiaCiudad.W8.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\GuiaCiudad.W8.pdb">
+      <PackagePath>GuiaCiudad.W8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.dll">
+      <PackagePath>GuiaCiudad.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.Common\bin\Debug\GuiaCiudad.Common.pdb">
+      <PackagePath>GuiaCiudad.Common.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JSB\Documents\Visual Studio 2012\Projects\GuiaCiudad\GuiaCiudad.W8\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
